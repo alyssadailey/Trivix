@@ -1,0 +1,29 @@
+[
+    {
+      "question": "What does JSX stand for?",
+      "answers": [
+        { "text": "JavaScript XML", "isCorrect": true },
+        { "text": "Java Syntax Extension", "isCorrect": false },
+        { "text": "JavaScript Extension", "isCorrect": false },
+        { "text": "Just Simple XML", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which hook is used to manage state in a functional component?",
+      "answers": [
+        { "text": "useEffect", "isCorrect": false },
+        { "text": "useRef", "isCorrect": false },
+        { "text": "useState", "isCorrect": true },
+        { "text": "useContext", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of React's `key` prop?",
+      "answers": [
+        { "text": "To identify which items have changed", "isCorrect": true },
+        { "text": "To create unique styles", "isCorrect": false },
+        { "text": "To secure the app", "isCorrect": false },
+        { "text": "To bind data to inputs", "isCorrect": false }
+      ]
+    }
+  ]

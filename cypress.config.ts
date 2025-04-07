@@ -10,12 +10,14 @@ export default defineConfig({
       viteConfig,
     },
     specPattern: "cypress/component/**/*.cy.{js,jsx,ts,tsx}",
-    indexHtmlFile: 'client/index.html',
+    indexHtmlFile: 'cypress/support/component-index.html',
+    supportFile: false,
   },
 
   e2e: {
-    baseUrl: 'http://localhost:3001',
+    baseUrl: 'http://127.0.0.1:3001',
     specPattern: "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    supportFile: 'cypress/support/e2e.js',
     setupNodeEvents(on, config) {
     },
   },
